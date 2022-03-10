@@ -67,6 +67,6 @@ static const struct arg args[] = {
 	/* function format          argument */
   { cpu_perc,     " ﬙ %s%% |",     NULL }, 
   { ram_perc,     "  %s%% |",     NULL }, 
-  { run_command,  "  %s |",       " amixer sget Master | awk -F \"[][]\" ' /Left:/ {print $2}'" },
+  { run_command,  "  %s |",       " amixer sget Master | awk -F \"[][]\" ' /Mono:/ {print $2}'" },
 	{ datetime,     " %s",           "%a %F %R " },
 };
